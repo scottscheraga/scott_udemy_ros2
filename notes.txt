@@ -1,0 +1,13 @@
+current run command: 11-22-2024
+xhost + && sudo docker run -it --rm --network=host  --ipc=host -e DISPLAY=$DISPLAY -v /tmp/.X11-unix/:/tmp/.X11-unix -v $PWD/scott_docker_volume:/scott_docker_volume scott_ros2-jazzy:latest
+
+BUILD COMMAND:
+docker build -t scott_ros2-jazzy:latest .
+
+
+docker run -it osrf/ros:jazzy-desktop
+
+
+alias brc='gedit ~/.bashrc'
+alias sbrc='source ~/.bashrc'
+alias rosd='xhost + && sudo docker run -it --rm --network=host --user ros --ipc=host --gpus all --runtime nvidia -e DISPLAY=$DISPLAY -v /tmp/.X11-unix/:/tmp/.X11-unix -v $PWD/scott_ws:/scott_ws scottdelta:latest '
