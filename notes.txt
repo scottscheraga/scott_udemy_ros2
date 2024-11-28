@@ -11,3 +11,27 @@ docker run -it osrf/ros:jazzy-desktop
 alias brc='gedit ~/.bashrc'
 alias sbrc='source ~/.bashrc'
 alias rosd='xhost + && sudo docker run -it --rm --network=host --user ros --ipc=host --gpus all --runtime nvidia -e DISPLAY=$DISPLAY -v /tmp/.X11-unix/:/tmp/.X11-unix -v $PWD/scott_ws:/scott_ws scottdelta:latest '
+
+
+-------------
+USEFUL TERMINAL COMMANDS:
+ros2 topic list
+ros2 topic info /chatter
+ros2 topic pub /chatter std_msgs/msg/String "data: 'Hello Ros2'"
+
+
+mkdir -p ardobot_ws/src
+colcon build --symlink-install
+
+inside the src folder: 
+    ros2 pkg create --build-type ament_python arduinobot_py_examples
+    ros2 pkg create --build-type ament_cmake arduinobot_cpp_examples
+    
+update package.xml file with exec_depend message types
+
+update setup.py with     entry_points={
+        'console_scripts': [
+            'simple_publisher = arduinobot_py_examples.simple_publisher:main',
+            'simple_subscriber = arduinobot_py_examples.simple_subscriber:main',
+        ],
+    },

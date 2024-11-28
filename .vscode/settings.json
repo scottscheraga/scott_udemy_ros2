@@ -1,0 +1,14 @@
+{
+    "python.autoComplete.extraPaths": [
+        "/home/scott/devel/lib/python2.7/dist-packages",
+        "/opt/ros/foxy/lib/python3.8/site-packages",
+        "",
+        "/home/scott/ScheragaThesis/MainEnv-RL"
+    ],
+    "python.analysis.extraPaths": [
+        "/home/scott/devel/lib/python2.7/dist-packages",
+        "/opt/ros/foxy/lib/python3.8/site-packages",
+        "",
+        "/home/scott/ScheragaThesis/MainEnv-RL"
+    ]
+}

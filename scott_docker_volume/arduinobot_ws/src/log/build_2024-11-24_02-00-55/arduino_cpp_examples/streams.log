@@ -1,0 +1,21 @@
+[0.011s] Invoking command in '/scott_docker_volume/arduinobot_ws/src/build/arduino_cpp_examples': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /scott_docker_volume/arduinobot_ws/src/build/arduino_cpp_examples -- -j24 -l24
+[0.196s] Invoked command in '/scott_docker_volume/arduinobot_ws/src/build/arduino_cpp_examples' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /scott_docker_volume/arduinobot_ws/src/build/arduino_cpp_examples -- -j24 -l24
+[0.229s] Invoking command in '/scott_docker_volume/arduinobot_ws/src/build/arduino_cpp_examples': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /scott_docker_volume/arduinobot_ws/src/build/arduino_cpp_examples
+[0.237s] -- Install configuration: ""
+[0.238s] -- Execute custom install script
+[0.238s] -- Up-to-date symlink: /scott_docker_volume/arduinobot_ws/src/install/arduino_cpp_examples/share/ament_index/resource_index/package_run_dependencies/arduino_cpp_examples
+[0.238s] -- Up-to-date symlink: /scott_docker_volume/arduinobot_ws/src/install/arduino_cpp_examples/share/ament_index/resource_index/parent_prefix_path/arduino_cpp_examples
+[0.239s] -- Up-to-date symlink: /scott_docker_volume/arduinobot_ws/src/install/arduino_cpp_examples/share/arduino_cpp_examples/environment/ament_prefix_path.sh
+[0.239s] -- Up-to-date symlink: /scott_docker_volume/arduinobot_ws/src/install/arduino_cpp_examples/share/arduino_cpp_examples/environment/ament_prefix_path.dsv
+[0.239s] -- Up-to-date symlink: /scott_docker_volume/arduinobot_ws/src/install/arduino_cpp_examples/share/arduino_cpp_examples/environment/path.sh
+[0.239s] -- Up-to-date symlink: /scott_docker_volume/arduinobot_ws/src/install/arduino_cpp_examples/share/arduino_cpp_examples/environment/path.dsv
+[0.239s] -- Up-to-date symlink: /scott_docker_volume/arduinobot_ws/src/install/arduino_cpp_examples/share/arduino_cpp_examples/local_setup.bash
+[0.240s] -- Up-to-date symlink: /scott_docker_volume/arduinobot_ws/src/install/arduino_cpp_examples/share/arduino_cpp_examples/local_setup.sh
+[0.240s] -- Up-to-date symlink: /scott_docker_volume/arduinobot_ws/src/install/arduino_cpp_examples/share/arduino_cpp_examples/local_setup.zsh
+[0.240s] -- Up-to-date symlink: /scott_docker_volume/arduinobot_ws/src/install/arduino_cpp_examples/share/arduino_cpp_examples/local_setup.dsv
+[0.240s] -- Symlinking: /scott_docker_volume/arduinobot_ws/src/install/arduino_cpp_examples/share/arduino_cpp_examples/package.dsv
+[0.248s] -- Up-to-date symlink: /scott_docker_volume/arduinobot_ws/src/install/arduino_cpp_examples/share/ament_index/resource_index/packages/arduino_cpp_examples
+[0.249s] -- Up-to-date symlink: /scott_docker_volume/arduinobot_ws/src/install/arduino_cpp_examples/share/arduino_cpp_examples/cmake/arduino_cpp_examplesConfig.cmake
+[0.249s] -- Up-to-date symlink: /scott_docker_volume/arduinobot_ws/src/install/arduino_cpp_examples/share/arduino_cpp_examples/cmake/arduino_cpp_examplesConfig-version.cmake
+[0.249s] -- Up-to-date symlink: /scott_docker_volume/arduinobot_ws/src/install/arduino_cpp_examples/share/arduino_cpp_examples/package.xml
+[0.251s] Invoked command in '/scott_docker_volume/arduinobot_ws/src/build/arduino_cpp_examples' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /scott_docker_volume/arduinobot_ws/src/build/arduino_cpp_examples

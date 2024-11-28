@@ -1,8 +1,5 @@
 FROM ubuntu:24.04
 
-
-
-
 RUN apt-get update 
 RUN  apt-get install -y locales 
 #RUN    sudo locale-gen en_US en_US.UTF-8 
@@ -57,3 +54,8 @@ RUN echo 'alias cb="colcon build"' >> ~/.bashrc &&\
 
 RUN     apt-get install -y vim && \
         apt-get install gedit  -y 
+
+# Switch to the custom user
+USER 1000
+
+WORKDIR /home/ubuntu/

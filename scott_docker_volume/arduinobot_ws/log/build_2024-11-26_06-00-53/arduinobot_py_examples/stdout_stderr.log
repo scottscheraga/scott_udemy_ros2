@@ -1,0 +1,40 @@
+running develop
+/usr/lib/python3/dist-packages/setuptools/command/develop.py:40: EasyInstallDeprecationWarning: easy_install command is deprecated.
+!!
+
+        ********************************************************************************
+        Please avoid running ``setup.py`` and ``easy_install``.
+        Instead, use pypa/build, pypa/installer or other
+        standards-based tools.
+
+        See https://github.com/pypa/setuptools/issues/917 for details.
+        ********************************************************************************
+
+!!
+  easy_install.initialize_options(self)
+Removing /workspaces/scott_udemy_ros2/scott_docker_volume/arduinobot_ws/install/arduinobot_py_examples/lib/python3.12/site-packages/arduinobot-py-examples.egg-link (link to .)
+running egg_info
+writing ../../build/arduinobot_py_examples/arduinobot_py_examples.egg-info/PKG-INFO
+writing dependency_links to ../../build/arduinobot_py_examples/arduinobot_py_examples.egg-info/dependency_links.txt
+writing requirements to ../../build/arduinobot_py_examples/arduinobot_py_examples.egg-info/requires.txt
+writing top-level names to ../../build/arduinobot_py_examples/arduinobot_py_examples.egg-info/top_level.txt
+reading manifest file '../../build/arduinobot_py_examples/arduinobot_py_examples.egg-info/SOURCES.txt'
+writing manifest file '../../build/arduinobot_py_examples/arduinobot_py_examples.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /workspaces/scott_udemy_ros2/scott_docker_volume/arduinobot_ws/build/arduinobot_py_examples/build
+creating /workspaces/scott_udemy_ros2/scott_docker_volume/arduinobot_ws/build/arduinobot_py_examples/build/lib
+creating /workspaces/scott_udemy_ros2/scott_docker_volume/arduinobot_ws/build/arduinobot_py_examples/build/lib/arduinobot_py_examples
+copying arduinobot_py_examples/__init__.py -> /workspaces/scott_udemy_ros2/scott_docker_volume/arduinobot_ws/build/arduinobot_py_examples/build/lib/arduinobot_py_examples
+running install
+running install_lib
+creating /workspaces/scott_udemy_ros2/scott_docker_volume/arduinobot_ws/install/arduinobot_py_examples/lib/python3.12/site-packages/arduinobot_py_examples
+copying /workspaces/scott_udemy_ros2/scott_docker_volume/arduinobot_ws/build/arduinobot_py_examples/build/lib/arduinobot_py_examples/__init__.py -> /workspaces/scott_udemy_ros2/scott_docker_volume/arduinobot_ws/install/arduinobot_py_examples/lib/python3.12/site-packages/arduinobot_py_examples
+byte-compiling /workspaces/scott_udemy_ros2/scott_docker_volume/arduinobot_ws/install/arduinobot_py_examples/lib/python3.12/site-packages/arduinobot_py_examples/__init__.py to __init__.cpython-312.pyc
+running install_data
+copying resource/arduinobot_py_examples -> /workspaces/scott_udemy_ros2/scott_docker_volume/arduinobot_ws/install/arduinobot_py_examples/share/ament_index/resource_index/packages
+copying package.xml -> /workspaces/scott_udemy_ros2/scott_docker_volume/arduinobot_ws/install/arduinobot_py_examples/share/arduinobot_py_examples
+running install_egg_info
+Copying ../../build/arduinobot_py_examples/arduinobot_py_examples.egg-info to /workspaces/scott_udemy_ros2/scott_docker_volume/arduinobot_ws/install/arduinobot_py_examples/lib/python3.12/site-packages/arduinobot_py_examples-0.0.0-py3.12.egg-info
+running install_scripts
+writing list of installed files to '/workspaces/scott_udemy_ros2/scott_docker_volume/arduinobot_ws/build/arduinobot_py_examples/install.log'

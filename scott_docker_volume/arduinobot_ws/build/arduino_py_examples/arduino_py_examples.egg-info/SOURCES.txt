@@ -1,0 +1,14 @@
+package.xml
+setup.cfg
+setup.py
+arduino_py_examples/__init__.py
+arduino_py_examples/simple_publisher.py
+arduino_py_examples/simple_subscriber.py
+arduino_py_examples.egg-info/PKG-INFO
+arduino_py_examples.egg-info/SOURCES.txt
+arduino_py_examples.egg-info/dependency_links.txt
+arduino_py_examples.egg-info/entry_points.txt
+arduino_py_examples.egg-info/requires.txt
+arduino_py_examples.egg-info/top_level.txt
+arduino_py_examples.egg-info/zip-safe
+resource/arduino_py_examples

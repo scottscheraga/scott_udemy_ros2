@@ -1,0 +1,13 @@
+running develop
+running egg_info
+writing arduino_py_examples.egg-info/PKG-INFO
+writing dependency_links to arduino_py_examples.egg-info/dependency_links.txt
+writing requirements to arduino_py_examples.egg-info/requires.txt
+writing top-level names to arduino_py_examples.egg-info/top_level.txt
+reading manifest file 'arduino_py_examples.egg-info/SOURCES.txt'
+writing manifest file 'arduino_py_examples.egg-info/SOURCES.txt'
+running build_ext
+Creating /scott_docker_volume/arduinobot_ws/src/install/arduino_py_examples/lib/python3.12/site-packages/arduino-py-examples.egg-link (link to .)
+
+Installed /scott_docker_volume/arduinobot_ws/src/build/arduino_py_examples
+running symlink_data

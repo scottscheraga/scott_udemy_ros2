@@ -1,0 +1,38 @@
+[0.654s] Invoking command in '/workspaces/scott_udemy_ros2/scott_docker_volume/arduinobot_ws/build/arduino_py_examples': PYTHONPATH=/workspaces/scott_udemy_ros2/scott_docker_volume/arduinobot_ws/build/arduino_py_examples/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/workspaces/scott_udemy_ros2/scott_docker_volume/arduinobot_ws/install/arduino_py_examples/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /workspaces/scott_udemy_ros2/scott_docker_volume/arduinobot_ws/build/arduino_py_examples/build --no-deps symlink_data
+[0.909s] running develop
+[0.909s] /usr/lib/python3/dist-packages/setuptools/command/develop.py:40: EasyInstallDeprecationWarning: easy_install command is deprecated.
+[0.909s] !!
+[0.909s] 
+[0.909s]         ********************************************************************************
+[0.909s]         Please avoid running ``setup.py`` and ``easy_install``.
+[0.910s]         Instead, use pypa/build, pypa/installer or other
+[0.910s]         standards-based tools.
+[0.910s] 
+[0.910s]         See https://github.com/pypa/setuptools/issues/917 for details.
+[0.910s]         ********************************************************************************
+[0.910s] 
+[0.910s] !!
+[0.910s]   easy_install.initialize_options(self)
+[1.082s] running egg_info
+[1.082s] creating arduino_py_examples.egg-info
+[1.099s] writing arduino_py_examples.egg-info/PKG-INFO
+[1.099s] writing dependency_links to arduino_py_examples.egg-info/dependency_links.txt
+[1.099s] writing entry points to arduino_py_examples.egg-info/entry_points.txt
+[1.099s] writing requirements to arduino_py_examples.egg-info/requires.txt
+[1.099s] writing top-level names to arduino_py_examples.egg-info/top_level.txt
+[1.099s] writing manifest file 'arduino_py_examples.egg-info/SOURCES.txt'
+[1.137s] reading manifest file 'arduino_py_examples.egg-info/SOURCES.txt'
+[1.137s] writing manifest file 'arduino_py_examples.egg-info/SOURCES.txt'
+[1.155s] running build_ext
+[1.156s] Creating /workspaces/scott_udemy_ros2/scott_docker_volume/arduinobot_ws/install/arduino_py_examples/lib/python3.12/site-packages/arduino-py-examples.egg-link (link to .)
+[1.156s] Installing simple_publisher script to /workspaces/scott_udemy_ros2/scott_docker_volume/arduinobot_ws/install/arduino_py_examples/lib/arduino_py_examples
+[1.156s] Installing simple_subscriber script to /workspaces/scott_udemy_ros2/scott_docker_volume/arduinobot_ws/install/arduino_py_examples/lib/arduino_py_examples
+[1.156s] 
+[1.156s] Installed /workspaces/scott_udemy_ros2/scott_docker_volume/arduinobot_ws/build/arduino_py_examples
+[1.156s] running symlink_data
+[1.157s] creating /workspaces/scott_udemy_ros2/scott_docker_volume/arduinobot_ws/install/arduino_py_examples/share/ament_index
+[1.157s] creating /workspaces/scott_udemy_ros2/scott_docker_volume/arduinobot_ws/install/arduino_py_examples/share/ament_index/resource_index
+[1.157s] creating /workspaces/scott_udemy_ros2/scott_docker_volume/arduinobot_ws/install/arduino_py_examples/share/ament_index/resource_index/packages
+[1.157s] symbolically linking /workspaces/scott_udemy_ros2/scott_docker_volume/arduinobot_ws/build/arduino_py_examples/resource/arduino_py_examples -> /workspaces/scott_udemy_ros2/scott_docker_volume/arduinobot_ws/install/arduino_py_examples/share/ament_index/resource_index/packages
+[1.157s] symbolically linking /workspaces/scott_udemy_ros2/scott_docker_volume/arduinobot_ws/build/arduino_py_examples/package.xml -> /workspaces/scott_udemy_ros2/scott_docker_volume/arduinobot_ws/install/arduino_py_examples/share/arduino_py_examples
+[1.178s] Invoked command in '/workspaces/scott_udemy_ros2/scott_docker_volume/arduinobot_ws/build/arduino_py_examples' returned '0': PYTHONPATH=/workspaces/scott_udemy_ros2/scott_docker_volume/arduinobot_ws/build/arduino_py_examples/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/workspaces/scott_udemy_ros2/scott_docker_volume/arduinobot_ws/install/arduino_py_examples/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /workspaces/scott_udemy_ros2/scott_docker_volume/arduinobot_ws/build/arduino_py_examples/build --no-deps symlink_data

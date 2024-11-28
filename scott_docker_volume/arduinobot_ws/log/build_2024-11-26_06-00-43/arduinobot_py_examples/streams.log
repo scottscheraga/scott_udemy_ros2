@@ -1,0 +1,35 @@
+[0.631s] Invoking command in '/workspaces/scott_udemy_ros2/scott_docker_volume/arduinobot_ws/build/arduinobot_py_examples': PYTHONPATH=/workspaces/scott_udemy_ros2/scott_docker_volume/arduinobot_ws/build/arduinobot_py_examples/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/workspaces/scott_udemy_ros2/scott_docker_volume/arduinobot_ws/install/arduinobot_py_examples/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /workspaces/scott_udemy_ros2/scott_docker_volume/arduinobot_ws/build/arduinobot_py_examples/build --no-deps symlink_data
+[0.891s] running develop
+[0.891s] /usr/lib/python3/dist-packages/setuptools/command/develop.py:40: EasyInstallDeprecationWarning: easy_install command is deprecated.
+[0.891s] !!
+[0.891s] 
+[0.891s]         ********************************************************************************
+[0.891s]         Please avoid running ``setup.py`` and ``easy_install``.
+[0.891s]         Instead, use pypa/build, pypa/installer or other
+[0.891s]         standards-based tools.
+[0.892s] 
+[0.892s]         See https://github.com/pypa/setuptools/issues/917 for details.
+[0.892s]         ********************************************************************************
+[0.892s] 
+[0.892s] !!
+[0.892s]   easy_install.initialize_options(self)
+[1.063s] running egg_info
+[1.064s] creating arduinobot_py_examples.egg-info
+[1.079s] writing arduinobot_py_examples.egg-info/PKG-INFO
+[1.080s] writing dependency_links to arduinobot_py_examples.egg-info/dependency_links.txt
+[1.080s] writing requirements to arduinobot_py_examples.egg-info/requires.txt
+[1.080s] writing top-level names to arduinobot_py_examples.egg-info/top_level.txt
+[1.080s] writing manifest file 'arduinobot_py_examples.egg-info/SOURCES.txt'
+[1.113s] reading manifest file 'arduinobot_py_examples.egg-info/SOURCES.txt'
+[1.113s] writing manifest file 'arduinobot_py_examples.egg-info/SOURCES.txt'
+[1.131s] running build_ext
+[1.131s] Creating /workspaces/scott_udemy_ros2/scott_docker_volume/arduinobot_ws/install/arduinobot_py_examples/lib/python3.12/site-packages/arduinobot-py-examples.egg-link (link to .)
+[1.132s] 
+[1.132s] Installed /workspaces/scott_udemy_ros2/scott_docker_volume/arduinobot_ws/build/arduinobot_py_examples
+[1.132s] running symlink_data
+[1.132s] creating /workspaces/scott_udemy_ros2/scott_docker_volume/arduinobot_ws/install/arduinobot_py_examples/share/ament_index
+[1.132s] creating /workspaces/scott_udemy_ros2/scott_docker_volume/arduinobot_ws/install/arduinobot_py_examples/share/ament_index/resource_index
+[1.132s] creating /workspaces/scott_udemy_ros2/scott_docker_volume/arduinobot_ws/install/arduinobot_py_examples/share/ament_index/resource_index/packages
+[1.132s] symbolically linking /workspaces/scott_udemy_ros2/scott_docker_volume/arduinobot_ws/build/arduinobot_py_examples/resource/arduinobot_py_examples -> /workspaces/scott_udemy_ros2/scott_docker_volume/arduinobot_ws/install/arduinobot_py_examples/share/ament_index/resource_index/packages
+[1.132s] symbolically linking /workspaces/scott_udemy_ros2/scott_docker_volume/arduinobot_ws/build/arduinobot_py_examples/package.xml -> /workspaces/scott_udemy_ros2/scott_docker_volume/arduinobot_ws/install/arduinobot_py_examples/share/arduinobot_py_examples
+[1.155s] Invoked command in '/workspaces/scott_udemy_ros2/scott_docker_volume/arduinobot_ws/build/arduinobot_py_examples' returned '0': PYTHONPATH=/workspaces/scott_udemy_ros2/scott_docker_volume/arduinobot_ws/build/arduinobot_py_examples/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/workspaces/scott_udemy_ros2/scott_docker_volume/arduinobot_ws/install/arduinobot_py_examples/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /workspaces/scott_udemy_ros2/scott_docker_volume/arduinobot_ws/build/arduinobot_py_examples/build --no-deps symlink_data
